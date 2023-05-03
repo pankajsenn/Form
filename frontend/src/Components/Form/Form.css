@@ -1,0 +1,196 @@
+#main-container{
+    width: 95%;
+    margin: auto;
+}
+/*utility class*/
+.error{
+    position: absolute;
+    left: 20%;
+    top: 35px;
+    color: red;
+}
+.input{
+    outline: none;
+    border: 2px solid  rgb(212, 205, 205);
+    height: 25px;
+    border-radius: 9px;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+label{
+    font-size: 17px;
+    font-weight: 600;
+}
+::placeholder{
+    position: relative;
+    left: 10px;
+    color: grey;
+    font-weight: 500;
+    font-size: 15px;
+}
+select option{
+   font-size: 15px;
+}
+h3{
+    text-decoration:underline;
+}
+/* personal details */
+#personal-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+#personal-div input{
+    margin-left: 30px;
+}
+#personal-div div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#personal-div div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+.govt-div{
+    width: 58.45%;
+    position: relative;
+}
+/* personal details inputs*/
+.name-div{
+width: 38%;
+position: relative;
+}
+#name{
+    width: 100%;
+}
+.mobile-div{
+    width: 30%;
+    position: relative;
+}
+#mobile{
+    width: 100%;
+}
+.dob-div{
+    width: 30%;
+    position: relative;
+}
+#dob{
+    width: 80%;
+}
+.sex-div{
+    width: 25%;
+    position: relative;
+}
+#sex{
+    width: 80%;
+    border-radius: 9px;
+    float: right;
+}
+.govt-div select{
+    width: 25%;
+    position: absolute;
+    right: 56%;
+    height: 30px;
+}
+#govtid{
+    width: 52%;
+}
+
+/*contact detail*/
+#contact-div{
+    display: flex;
+    justify-content: space-between;
+}
+/* contact details inputs*/
+.email-div{
+    position: relative;
+    left: 13px;
+}
+.guardian-div{
+    position: relative;
+}
+.emergency-div{
+    position: relative;
+}
+/* address detail*/
+#address-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+.Address-div{
+    position: relative;
+}
+#address-div div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#address-div div:nth-child(2) {
+    display: flex;
+}
+/* address input */
+.Address-div{
+    width: 38%;
+}
+#address{
+    width: 100%;
+}
+.state-div{
+    width: 33.5%;
+}
+#state{
+    width: 100%;
+}
+.country-div{
+    width: 30%;
+    margin-right: 12%;
+}
+#country{
+    width: 90%;
+}
+/* Other Details*/
+.nationality-div{
+    position: relative;
+}
+#other-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+#other-div div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#other-div div:nth-child(2) {
+    display: flex;
+}
+/*Buttons*/
+#btn-div{
+float: right;
+}
+button{
+    height: 60px;
+    width: 120px;
+    border-radius: 9px;
+    border:none;
+    font-size: 18px;
+}
+button:first-child{
+    margin-right: 50px;
+    border:2px solid lightcoral;
+    color: lightcoral;
+}
+button:last-child{
+    background:rgb(67, 149, 67);
+    color: white;
+}
